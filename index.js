@@ -8,7 +8,7 @@ try{
   	var util = require('util');
 	var logFile = fs.createWriteStream('ets.log', { flags: 'w' });
 	var logStdout = process.stdout;
-
+	var date = new Date();
 	console.log = function () {
 	  logFile.write(util.format.apply(null, arguments) + '\n');
 	  logStdout.write(util.format.apply(null, arguments) + '\n');
@@ -44,15 +44,17 @@ try{
 	      }else if (pathname == "/get") {
 	      	  var jsonObject = {};
 	      	  try{
-	  		  collection.findOne({}, function(err, item) {
+	  		  collection.find({}).sort({timestamp:-1}).limit(1).toArray(function(err, docs) {
+	  		  	//console.log(docs);
+	  		  	var item = docs[0];
 	  		  	    if(item == null){
 	  		  	    	console.log("No data found in db ,  returning default value");
 	  		  	    	item = {latitude:17.454403, longitude:78.398674,timestamp:"default jsonObject"};
 	  		  	    }else{
+	  		  	    	item.timestamp= new Date(item.timestamp).toString();
+	  		  	    	//console.log(item.timestamp); 
 	  		  	    	console.log("Sending Data: {latitude:%s,longitude:%s,timestamp:%s}",item.latitude,item.longitude,item.timestamp);
-	  		  	    }
-	  		  		jsonObject = item;
-	  		    	
+	  		  	    }	  		    	
 	  		    	response.end(JSON.stringify(item));  
 	  		    });
 	          
