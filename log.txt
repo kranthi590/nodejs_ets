@@ -1,0 +1,40 @@
+Listening to server on 8888...
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 08:52:03 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 08:52:03 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 08:52:03 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 08:52:03 GMT+0530 (IST)}
+Request for /get received.
+No data found in db ,  returning default value
+Request for /get received.
+No data found in db ,  returning default value
+Request for /save received.
+{"la":"17.7878","lg":"78.8989"}
+Request for /favicon.ico received.
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
+Request for /get received.
+Sending Data: {latitude:17.7878,longitude:78.8989,timestamp:Thu Dec 17 2015 09:02:05 GMT+0530 (IST)}
