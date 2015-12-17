@@ -6,7 +6,7 @@ try{
 	var url = require("url");
 
   	var util = require('util');
-	var logFile = fs.createWriteStream('log.txt', { flags: 'w' });
+	var logFile = fs.createWriteStream('ets.log', { flags: 'w' });
 	var logStdout = process.stdout;
 
 	console.log = function () {
